@@ -12,7 +12,7 @@
 }
 
 .Grid1img{
-  
+    border: black 2px solid;
     border-radius: 300px 300px 300px 300px;
     width: 100%;
    
@@ -57,18 +57,43 @@ span{
     font-family: 'Passion One', sans-serif;
     font-size: 70px;
     padding-left: 60px;
-    margin-top: 150px;
+    margin-top: 300px;
    
     
 }
 .para1{
-    margin-top: 150px;
+    margin-top: 250px;
     text-align: justify;
 }
 
-.column{
+.column4{
+    background-color: black;
+    color: white;
+    margin-top: 60px;
+    height:80%;
     
    
+   
+}
+.column5{
+    color:black;
+    margin-top: -130px;
+    /* border: black 1px solid; */
+    height:100%;
+
+
+}
+.column6{
+    margin-top: -130px;
+    background-color: black;
+    color: white;
+    height:100%;
+    padding-left: 50px;
+    
+
+}
+#row2{
+    margin-top: 20px;
 }
 
 @media (orientation: portrait){
@@ -80,5 +105,35 @@ span{
         width: 100%;
         height: 100%;
     }
+    .head1{
+        font-family: 'Passion One', sans-serif;
+        font-size: 50px;
+        padding-left: 50px;
+        margin-top: 70px;
+       
+        
+    }
+    .para1{
+        margin-top: 200px;
+        text-align: justify;
+    }
+    .column4{
+        background-color: black;
+        color: white;
+        margin-top: 30px;
+        height:80%;
+        
+       
+       
+    }
+    .column5{
+        height: 70%;
+
+    }
+    .column6{
+        height: 200px;
+        margin-top: 10px;
+    }
+
 
 }

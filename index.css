@@ -4,6 +4,7 @@
 .cc {
     /* background-color: black; */
     color: white;
+
     height: 80px;
 
 }
@@ -45,9 +46,9 @@
     transform: scale(1.01);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 } */
-.row {
+/* .row {
     height: 750px;
-}
+} */
 
 .he1 {
     margin-top: 100px;
@@ -81,6 +82,7 @@ span {
 }
 
 .button1 {
+
     width: 170px;
     height: 50px;
     border-color: #6AA99E;
@@ -103,64 +105,45 @@ span {
     width: 100%;
 }
 
-.skill1 {
-
-    width: 100%;
-}
 
 .head1 {
     font-family: 'Passion One', sans-serif;
-    font-size: 70px;
-    padding-left: 60px;
-    margin-top: 200px;
+    font-size: 70px;   
     text-align: center;
 
+}
+.para1 {
 
 
+    margin-top: 10px;
+    text-align: justify;
+    font-size: 20px;
+    font-family:  sans-serif;
 }
 
 .head2 {
     font-family: 'Passion One', sans-serif;
     font-size: 70px;
     padding-left: 60px;
-    
-
     text-align: center;
 }
-
-.para1 {
-    margin-top: 250px;
-    text-align: justify;
-    font-size: 20px;
-    font-family: sans-serif;
-}
-
 
 .column4 {
     background-color: black;
     color: white;
-    /* margin-top: 60px; */
-    height: 100%;
-
-
-
 }
 
 .column5 {
     color: black;
     /* margin-top: 10px; */
     /* border: black 1px solid; */
-    height: 100%;
-
-
-
+    
 }
 
 .column6 {
     /* margin-top: -20px; */
     background-color: black;
     color: white;
-    height: 80%;
     padding-left: 50px;
 
 
@@ -168,7 +151,7 @@ span {
 
 .cc1 {
     height: 300px;
-    /* background-color: black; */
+    background-color: black;
 }
 
 .cc2 {
@@ -189,20 +172,7 @@ span {
    
 }
 
-.fend {
-   
-    font-size: 50px;
-    margin-top: 100px;
-    font-family: 'Passion One', sans-serif;
-    text-align: center;
-}
 
-.bend {
-    font-size: 50px;
-    margin-top: 100px;
-    font-family: 'Passion One', sans-serif;
-    text-align: center;
-}
 .ca1{
     width: 300px;
     height: 300px;
@@ -214,13 +184,38 @@ span {
 .card-img-top{
     height: 200px;
 }
+.gallery1{
+    margin-top: 80px;
+ }
+ /* .heading1{
+    text-align: center;
+ } */
+.head3{
+    font-family: 'Passion One', sans-serif;
+    font-size: 70px;
+    padding-left: 60px;
+    text-align: center;
+    color: black;
+    margin-top: 10px;
 
+}
+.formback{
+    height: 100%;
+    
+}
+
+.btn{
+    color: black;
+    border: black 1px solid;
+    border-radius: 20px;
+}
 @media (orientation: portrait) {
 
     .column1 {
         width: 400px;
         height: 400px;
-        margin-left: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
        
     }
 
@@ -260,10 +255,10 @@ span {
     }
 
     .para1 {
-        margin-top: 200px;
+       margin-top: 10px;
         text-align: justify;
-        font-size: 25px;
-        font-family: sans-serif;
+        font-size: 20px;
+        font-family:  sans-serif;
         
     }
 
@@ -312,21 +307,13 @@ span {
     .fa-brands{
         size: 1px;
     }
-    .fend {
-        font-size: 30px;
-        margin-top: 30px;
-        font-family: 'Passion One', sans-serif;
-        text-align: center;
-    }
     
-    .bend {
-        font-size: 30px;
-        margin-top: 30px;
-        font-family: 'Passion One', sans-serif;
-        text-align: center;
-    }
     .gallery1{
-       margin-top: 90px;
+       margin-top: 20px;
     }
+    .contact1{
+        margin-top: 10px;
+    }
+
 
 }

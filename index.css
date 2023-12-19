@@ -243,7 +243,7 @@ span {
         font-family: 'Passion One', sans-serif;
         font-size: 50px;
         /* padding-left: 20px; */
-        margin-top: 70px;
+        margin-top: 50px;
         text-align: center;
 
 
@@ -252,7 +252,9 @@ span {
     .head2 {
         font-family: 'Passion One', sans-serif;
         font-size: 50px;
-        /* padding-left: 20px; */
+        margin-top: 70px;
+        text-align: center;
+        padding-left: 20px;
        
 
 
